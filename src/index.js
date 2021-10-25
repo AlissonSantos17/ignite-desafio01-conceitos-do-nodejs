@@ -33,14 +33,16 @@ app.post("/users", (request, response) => {
     return response.status(400).json({ error: "User alread exists!" });
   }
 
-  users.push({
+  const user = {
     name,
     username,
     id: uuidv4(),
     todos: [],
-  });
+  };
 
-  return response.status(201).json(users[0]);
+  users.push(user);
+
+  return response.status(201).json(user);
 });
 
 app.get("/todos", checksExistsUserAccount, (request, response) => {
