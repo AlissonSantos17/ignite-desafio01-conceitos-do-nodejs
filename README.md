@@ -24,8 +24,6 @@ O template está disponível na seguinte URL:
 
 Agora navegue até a pasta criada, abra no Visual Studio Code e por último abra o arquivo `index.js`. Lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências e você terá o seguinte código:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f8032e9-d459-4c6f-a60f-d8c90fd9bc5a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f8032e9-d459-4c6f-a60f-d8c90fd9bc5a/Untitled.png)
-
 ## Rotas da aplicação
 
 Com o template já clonado e o arquivo `index.js` aberto, você deve completar onde não possui código com o código para atingir os objetivos de cada teste.
@@ -137,8 +135,6 @@ Para completar todos os testes referentes à *todos* é necessário antes ter co
 ```
 
 **Observação:** O username deve ser enviado pelo header em uma propriedade chamada `username`:
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c538c34-498a-4789-9bb4-0f286d9b2cf2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5c538c34-498a-4789-9bb4-0f286d9b2cf2/Untitled.png)
 
 - **Should be able to list all user's todos**
 
